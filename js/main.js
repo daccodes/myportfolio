@@ -3,7 +3,7 @@ var navita=["Home", "Chi Sono", "Cosa Faccio", "I miei Lavori", "Contatti"];
 
 var MainTitlesIta=[
   "Chi Sono",
-  "Uno sviluppatore Full-Stack Javascript e un programmatore entusiasta. Amo imparare nuove tecnologie e condividere le mie conoscienze",
+  "Uno sviluppatore Full-Stack Javascript e un programmatore entusiasta. Amo imparare nuove tecnologie e condividere le mie conoscenze",
   "Cosa Faccio",
   "Mi occupo della realizzazione di Siti Web responsive, Web Applications, curando sia la parte con la quale l'utente interagisce direttamente (FrontEnd),sia tutto quello che sta dietro un sito, quello che non si vede ma che ne permette il funzionamento generale (Backend)",
   "Tecnologie Utilizzate",
