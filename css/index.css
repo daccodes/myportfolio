@@ -1,0 +1,225 @@
+:root{
+    --gradcol1:linear-gradient(60deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
+    --gradcol2:linear-gradient(0deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
+    --gradcol3:linear-gradient(-60deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
+    --gradcol4:linear-gradient(180deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
+}
+
+body{
+ /**/
+ background-color: white;   
+}
+hr{
+    padding: 0%;
+    margin: 0%;
+    color: whitesmoke;
+}
+i{
+    color: rgb(72, 91, 110);;
+}
+button {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+.nav-item{
+    margin: 0%;
+    transition: height 1s;
+}
+.nav-item:link{
+    color: dimgray;
+}
+.nav-item:hover{
+    text-decoration: none;
+    background-color: rgb(255, 255, 125);
+    transform: rotate(10deg);
+    height: 50px;
+    border: solid;
+    border-color: black;
+    border-style: inherit;
+    color: black;
+}
+.nav-item:active{
+    color: gray;
+}
+/*
+.navbar-toggler-icon {
+    color:white;
+    /*background-color: white !important;
+}*/
+
+.flxpar{
+    display: flex;
+    flex-direction: column;
+}
+
+.nopd{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.hgt{
+    height: fit-content;
+}
+/*.nli{
+    color: whitesmoke;
+}
+.nli:hover{
+    color: dimgray;
+}*/
+.card-text{
+    min-height: 10vh;
+    max-height:fit-content;
+}
+.navbar-brand{
+    background-image: url('./assets/it.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 14pt;
+}
+.bg-color1{
+    background: var(--gradcol1);
+    color: white;
+}
+.bg-color1:hover{
+    background: var(--gradcol3);
+    color: white;
+}
+.bg-color2{
+    background: var(--gradcol2);
+    color: white;
+}
+.bg-color2:hover{
+    background: var(--gradcol4);
+    color: white;
+}
+.bg-color3{
+    background: var(--gradcol3);
+    color: white;
+}
+.bg-color3:hover{
+    background: var(--gradcol1);
+    color: white;
+}
+
+p{
+    text-align: center;
+    margin: 0, auto;
+}
+
+@media screen and (max-width:576px){
+    #myfaceimm{
+    width: 30%;
+    }
+    #button{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    #myfaceimm{
+    width: 30%;
+    }
+}
+@media screen and (max-width:992px){
+    #myfaceimm{
+    width: 30%;
+    }
+}
+
+  
+
+#navbarNav{
+    float: right;
+    margin-right: 14pt;
+}
+
+
+#navtop{
+    height: fit-content;  
+    /*background-color: rgb(72, 91, 110);*/
+    color: whitesmoke;
+}
+
+
+.bg-dark {
+    background-color:  rgb(72, 91, 110)!important;
+}
+/*per il colore del navitem hover lo cambio dall'id*/
+a#navhome:hover{
+    color: black;
+}
+a#navaboutme:hover{
+    color: black;
+}
+a#navwhatido:hover{
+    color: black;
+}
+a#navworks:hover{
+    color: black;
+}
+a#navcontacts:hover{
+    color: black;
+}
+
+#home{
+    opacity: 0.9;
+    background-color: black;
+    
+}
+#img1{
+    width: 25%;
+    opacity: 0.6;
+}
+#logo{
+    width: 2%;
+    height: 2%;
+    transition: width 2s, height 2s;
+}
+#logo:hover{
+    width: 15%;
+    height: 15%;
+}
+#aboutme{
+    background-color: ghostwhite;
+}
+#whatido{
+    /*background-color: #012e67;*/
+    /*background-color: #5677bf;*/
+    background-color: rgba(240, 240, 245, 0.747);
+}
+#works{
+    background-color: ghostwhite;
+}
+#contacts{
+    background: var(--gradcol1);
+}
+#face{
+    background-image: url('./assets/myface1.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color:  rgba(84,58,183,1) , rgba(0,172,193,1) ;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(60deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
+    border-radius: 50px;
+    /*border: 10px solid #0000a0;*/
+  }
