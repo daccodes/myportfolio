@@ -24,24 +24,24 @@ var MainTitlesEng=[
 var CardsIta=[
   "Siti Web Responsive",
   "I siti che realizzo sono completamente responsive, ovvero adattano la loro visualizzazione su qualsiasi dispositivo automaticamente in base alle dimensioni dello schermo",
-  "Vai agli ultimi Siti Web",
+  //"Vai agli ultimi Siti Web",
   "Contenuti Web per Digital Signage",
   "Sviluppo contenuti per quella che è la 'segnaletica digitale': una forma di comunicazione audiovisiva basata sulla distribuzione di contenuti multimediali e messaggi in formato digitale, su schermi elettronici, in spazi pubblici e privati.",
-  "Visualizza i contenuti",
+  //"Visualizza i contenuti",
   "Applicazioni Web",
-  "CMS, E-Commerce, PWA",
-  "Vedi Live"
+  "CMS, E-Commerce, PWA"
+  //"Vedi Live"
 ];
 var CardsEng=[
   "Responsive WebSites",
   "The sites I create are completely responsive, and that means they automatically adapt their display on any device based on the size of the screen",
-  "Go to lasts websites",
+  //"Go to lasts websites",
   "Web contents for Digital Signage",
   "Content development for what is 'digital signage': a form of audiovisual communication based on the distribution of multimedia content and messages in digital format on electronic screens in public and private spaces",
-  "View the contents",
+  //"View the contents",
   "Web Applications",
-  "CMS, E-Commerce, PWA",
-  "See Live"
+  "CMS, E-Commerce, PWA"
+  //"See Live"
 ];
 var testoita=["Un mare di creatività"]
 var testoeng=["A sea of creativity"]
@@ -76,13 +76,13 @@ function defaultlang(){
     document.getElementById("Titolo4").innerHTML=MainTitlesIta[5];
     document.getElementById("Cardtitle1").innerHTML=CardsIta[0];
     document.getElementById("Carddesc1").innerHTML=CardsIta[1];
-    document.getElementById("Cardbutton1").innerHTML=CardsIta[2];
-    document.getElementById("Cardtitle2").innerHTML=CardsIta[3];
-    document.getElementById("Carddesc2").innerHTML=CardsIta[4];
-    document.getElementById("Cardbutton2").innerHTML=CardsIta[5];
-    document.getElementById("Cardtitle3").innerHTML=CardsIta[6];
-    document.getElementById("Carddesc3").innerHTML=CardsIta[7];
-    document.getElementById("Cardbutton3").innerHTML=CardsIta[8];
+    //document.getElementById("Cardbutton1").innerHTML=CardsIta[2];
+    document.getElementById("Cardtitle2").innerHTML=CardsIta[2];
+    document.getElementById("Carddesc2").innerHTML=CardsIta[3];
+    //document.getElementById("Cardbutton2").innerHTML=CardsIta[5];
+    document.getElementById("Cardtitle3").innerHTML=CardsIta[4];
+    document.getElementById("Carddesc3").innerHTML=CardsIta[5];
+    //document.getElementById("Cardbutton3").innerHTML=CardsIta[8];
     document.getElementById("subtitleheader").innerHTML=testoita[0];
     document.getElementById("contactme").innerHTML=MainTitlesIta[6];
     document.getElementById("user_name").placeholder="Nome";
@@ -112,13 +112,13 @@ function cambialang(){
     document.getElementById("Titolo4").innerHTML=MainTitlesIta[5];
     document.getElementById("Cardtitle1").innerHTML=CardsIta[0];
     document.getElementById("Carddesc1").innerHTML=CardsIta[1];
-    document.getElementById("Cardbutton1").innerHTML=CardsIta[2];
-    document.getElementById("Cardtitle2").innerHTML=CardsIta[3];
-    document.getElementById("Carddesc2").innerHTML=CardsIta[4];
-    document.getElementById("Cardbutton2").innerHTML=CardsIta[5];
-    document.getElementById("Cardtitle3").innerHTML=CardsIta[6];
-    document.getElementById("Carddesc3").innerHTML=CardsIta[7];
-    document.getElementById("Cardbutton3").innerHTML=CardsIta[8];
+    //document.getElementById("Cardbutton1").innerHTML=CardsIta[2];
+    document.getElementById("Cardtitle2").innerHTML=CardsIta[2];
+    document.getElementById("Carddesc2").innerHTML=CardsIta[3];
+    //document.getElementById("Cardbutton2").innerHTML=CardsIta[5];
+    document.getElementById("Cardtitle3").innerHTML=CardsIta[4];
+    document.getElementById("Carddesc3").innerHTML=CardsIta[5];
+    //document.getElementById("Cardbutton3").innerHTML=CardsIta[8];
     document.getElementById("subtitleheader").innerHTML=testoita[0];
     document.getElementById("contactme").innerHTML=MainTitlesIta[6];
     document.getElementById("user_name").placeholder="Nome";
@@ -144,13 +144,13 @@ function cambialang(){
     document.getElementById("Titolo4").innerHTML=MainTitlesEng[5];
     document.getElementById("Cardtitle1").innerHTML=CardsEng[0];
     document.getElementById("Carddesc1").innerHTML=CardsEng[1];
-    document.getElementById("Cardbutton1").innerHTML=CardsEng[2];
-    document.getElementById("Cardtitle2").innerHTML=CardsEng[3];
-    document.getElementById("Carddesc2").innerHTML=CardsEng[4];
-    document.getElementById("Cardbutton2").innerHTML=CardsEng[5];
-    document.getElementById("Cardtitle3").innerHTML=CardsEng[6];
-    document.getElementById("Carddesc3").innerHTML=CardsEng[7];
-    document.getElementById("Cardbutton3").innerHTML=CardsEng[8];
+    //document.getElementById("Cardbutton1").innerHTML=CardsEng[2];
+    document.getElementById("Cardtitle2").innerHTML=CardsEng[2];
+    document.getElementById("Carddesc2").innerHTML=CardsEng[3];
+    //document.getElementById("Cardbutton2").innerHTML=CardsEng[5];
+    document.getElementById("Cardtitle3").innerHTML=CardsEng[4];
+    document.getElementById("Carddesc3").innerHTML=CardsEng[5];
+    //document.getElementById("Cardbutton3").innerHTML=CardsEng[8];
     document.getElementById("subtitleheader").innerHTML=testoeng[0];
     document.getElementById("contactme").innerHTML=MainTitlesEng[6];
     document.getElementById("user_name").placeholder="Name";
