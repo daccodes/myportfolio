@@ -163,3 +163,4 @@ function cambialang(){
   }
   
 }
+console.clear();
