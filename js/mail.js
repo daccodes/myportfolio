@@ -1,3 +1,5 @@
+console.clear();
+
 (function() {
     emailjs.init("user_XW2bGukwTaEOwzfUe5bf0");
     })();
