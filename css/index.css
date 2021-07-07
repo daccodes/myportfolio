@@ -4,10 +4,8 @@
     --gradcol3:linear-gradient(-60deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
     --gradcol4:linear-gradient(180deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
 }
-
 body{
- /**/
- background-color: white;   
+    background-color: white;   
 }
 hr{
     padding: 0%;
@@ -43,31 +41,17 @@ button {
 .nav-item:active{
     color: gray;
 }
-/*
-.navbar-toggler-icon {
-    color:white;
-    /*background-color: white !important;
-}*/
-
 .flxpar{
     display: flex;
     flex-direction: column;
 }
-
 .nopd{
     padding-left: 0%;
     padding-right: 0%;
 }
-
 .hgt{
     height: fit-content;
 }
-/*.nli{
-    color: whitesmoke;
-}
-.nli:hover{
-    color: dimgray;
-}*/
 .card-text{
     min-height: 10vh;
     max-height:fit-content;
@@ -104,12 +88,10 @@ button {
     background: var(--gradcol1);
     color: white;
 }
-
 p{
     text-align: center;
     margin: 0, auto;
 }
-
 @media screen and (max-width:576px){
     #myfaceimm{
     width: 30%;
@@ -128,22 +110,15 @@ p{
     width: 30%;
     }
 }
-
-  
-
 #navbarNav{
     float: right;
     margin-right: 14pt;
 }
-
-
 #navtop{
     height: fit-content;  
     /*background-color: rgb(72, 91, 110);*/
     color: whitesmoke;
 }
-
-
 .bg-dark {
     background-color:  rgb(72, 91, 110)!important;
 }
@@ -163,11 +138,9 @@ a#navworks:hover{
 a#navcontacts:hover{
     color: black;
 }
-
 #home{
     opacity: 0.9;
-    background-color: black;
-    
+    background-color: black; 
 }
 #img1{
     width: 25%;
@@ -186,8 +159,6 @@ a#navcontacts:hover{
     background-color: ghostwhite;
 }
 #whatido{
-    /*background-color: #012e67;*/
-    /*background-color: #5677bf;*/
     background-color: rgba(240, 240, 245, 0.747);
 }
 #works{
@@ -201,25 +172,20 @@ a#navcontacts:hover{
     background-repeat: no-repeat;
     background-size:contain;
 }
-
-
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: thin;
     scrollbar-color:  rgba(84,58,183,1) , rgba(0,172,193,1) ;
   }
-
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 10px;
   }
-
   *::-webkit-scrollbar-track {
     background-color: whitesmoke;
   }
   *::-webkit-scrollbar-thumb {
     background: linear-gradient(60deg, rgba(84,58,183,1) 10%, rgba(0,172,193,1) 90%);
     border-radius: 50px;
-    /*border: 10px solid #0000a0;*/
   }
